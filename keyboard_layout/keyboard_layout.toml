@@ -1,9 +1,9 @@
 # kalamine keyboard layout descriptor
 name        = "qwerty-custom"  # full layout name, displayed in the keyboard settings
 name8       = "custom"         # short Windows filename: no spaces, no special chars
-locale      = "us"             # locale/language id
+locale      = "pl"             # locale/language id
 variant     = "custom"         # layout variant id
-author      = "nobody"         # author name
+author      = "rafalk342"         # author name
 description = "custom QWERTY layout"
 url         = "https://OneDeadKey.github.com/kalamine"
 version     = "0.0.1"
@@ -12,16 +12,16 @@ geometry    = "ISO"
 base = '''
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
 │ ~   │ !   │ @   │ #   │ $   │ %   │ ^   │ &   │ *   │ (   │ )   │ _   │ +   ┃          ┃
-│ `   │ 1   │ 2 « │ 3 » │ 4   │ 5 € │ 6   │ 7   │ 8   │ 9   │ 0   │ -   │ =   ┃ ⌫        ┃
+│ `   │ 1   │ 2   │ 3   │ 4   │ 5   │ 6   │ 7   │ 8   │ 9   │ 0   │ -   │ =   ┃ ⌫        ┃
 ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
 ┃        ┃ Q   │ W   │ E   │ R   │ T   │ Y   │ U   │ I   │ O   │ P   │ {   │ }   ┃       ┃
-┃ ↹      ┃     │     │   é │     │     │   ý │   ú │   í │   ó │     │ [   │ ]   ┃       ┃
+┃ ↹      ┃     │     │   ę │     │     │     │     │     │   ó │     │ [   │ ]   ┃       ┃
 ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
-┃         ┃ A   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ :   │*¨   │ |   ┃      ┃
-┃ ⇬       ┃   á │     │     │     │     │     │     │     │     │ ;   │** ' │ \   ┃      ┃
+┃         ┃ A   │ S   │ D   │ F   │ G   │ H   │ J   │ K   │ L   │ :   │ "   │ |   ┃      ┃
+┃ ⇬       ┃   ą │   ś │     │     │     │     │     │     │   ł │ ;   │** ' │ \   ┃      ┃
 ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
-┃      ┃ |   │ Z   │ X   │ C   │ V   │ B   │ N   │ M   │ < • │ >   │ ?   ┃               ┃
-┃ ⇧    ┃ \   │     │     │   ç │     │     │     │   µ │ , · │ . … │ /   ┃ ⇧             ┃
+┃      ┃ |   │ Z   │ X   │ C   │ V   │ B   │ N   │ M   │ <   │ >   │ ?   ┃               ┃
+┃ ⇧    ┃ \   │   ż │   ź │   ć │     │     │   ń │     │ ,   │ .   │ /   ┃ ⇧             ┃
 ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴─┲━━━┷━━━┳━┷━━━━━╋━━━━━━━┳━━━━━━━┫
 ┃       ┃       ┃       ┃                                ┃       ┃       ┃       ┃       ┃
 ┃ Ctrl  ┃ super ┃ Alt   ┃ ␣                              ┃ AltGr ┃ super ┃ menu  ┃ Ctrl  ┃
