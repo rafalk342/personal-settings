@@ -1,7 +1,7 @@
 # kalamine keyboard layout descriptor
 name        = "qwerty-custom"  # full layout name, displayed in the keyboard settings
 name8       = "custom"         # short Windows filename: no spaces, no special chars
-locale      = "pl"             # locale/language id
+locale      = "en"             # locale/language id
 variant     = "custom"         # layout variant id
 author      = "rafalk342"         # author name
 description = "custom QWERTY layout"
