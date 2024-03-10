@@ -45,7 +45,7 @@
 (defalias
   sym (layer-toggle symbols)
   nav (layer-toggle navigation)
-  dk  (tap-hold-next-release 200 ; (layer-toggle polish_characters))
+  dk  (tap-next ; (layer-toggle polish_characters))
 )
 
 (deflayer qwerty
