@@ -45,12 +45,13 @@
 (defalias
   sym (layer-toggle symbols)
   nav (layer-toggle navigation)
+  dk  (tap-hold-next-release 200 ; (layer-toggle polish_characters))
 )
 
 (deflayer qwerty
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
-  @nav a    s    d    f    g    h    j    k    l    ;    '    ret
+  @nav a    s    d    f    g    h    j    k    l    @dk  '    ret
   lsft z    x    c    v    b    n    m    ,    .    /    rsft
   lalt lmet lctl           spc            @sym cmp  rctl
 )
@@ -68,5 +69,13 @@
   _    _    _    esc  _    _    _    pgdn pgup home end  _    _    _ 
   _    _    _    _    _    _    left down up   rght bspc _    _
   _    _    _    _    _    _    _    del  _    _    _    _
+  _    _    _              _              _    _    _
+)
+
+(deflayer polish_characters 
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    ę    _    _    _    _    _    ó    _    _    _    _
+  _    ą    ś    _    _    _    _    _    _    ł    _    _    _
+  _    ż    ź    ć    _    _    ń    _    _    _    _    _
   _    _    _              _              _    _    _
 )
