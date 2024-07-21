@@ -1,3 +1,7 @@
-cmd + space - Show system search
+# Ubuntu
 
-caps lock + hjkl - Arrows Navigation
+cmd + space -> Show system search
+
+# Obsidian
+
+cmd + e -> toggle reading view
